@@ -24,6 +24,6 @@
  
  # Author
  
-- You can visit my website [here](https://www.johnallen.netlify.app)
+- You can visit my website [here](https://johnallen.netlify.app/)
 - Or hit me up on Twitter - [@dazedmnd](https://www.twitter.com/dazedmnd)
 - Maybe on Discord - kyro#1104
