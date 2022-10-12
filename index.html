@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Scoreboard</title>
+		<link rel="stylesheet" href="/styles.css" />
+	</head>
+	<body>
+		<main>
+			<div class="title">
+				<h2>Online Scoreboard</h2>
+			</div>
+			<div class="container">
+				<div class="home">
+					<h1 id="home-name" contenteditable="true">HOME</h1>
+					<div class="counter-container">
+						<p id="home-counter">0</p>
+					</div>
+					<div class="btn-container">
+						<button class="increment-btn" data-incrementhome-btn>+1</button>
+						<button class="increment-btn" data-incrementhome-btn>+2</button>
+						<button class="increment-btn" data-incrementhome-btn>+3</button>
+					</div>
+				</div>
+
+				<div class="guest">
+					<h1 class="guest-name" contenteditable="true">GUEST</h1>
+					<div class="counter-container">
+						<p id="guest-counter">0</p>
+					</div>
+					<div class="btn-container">
+						<button class="increment-btn" data-incrementguest-btn>+1</button>
+						<button class="increment-btn" data-incrementguest-btn>+2</button>
+						<button class="increment-btn" data-incrementguest-btn>+3</button>
+					</div>
+				</div>
+			</div>
+			<div class="controls">
+				<button id="reset-btn">RESET</button>
+				<button id="undo-btn">UNDO</button>
+				<button id="save-btn">SAVE</button>
+			</div>
+			<div id="save-log">
+				<button id="hidden-btn" onclick="deleteChild()">CLEAR</button>
+				<ul id="list-container">
+					<!-- <p id="score-list"></p> -->
+				</ul>
+			</div>
+		</main>
+
+		<script src="/app.js"></script>
+	</body>
+</html>
+
+<!-- TO DO
++ ADD a Clear button on save log // DONE
++ ADD undo function
+-->
