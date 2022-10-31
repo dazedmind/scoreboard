@@ -1,6 +1,7 @@
 /* @import url('http://fonts.cdnfonts.com/css/engender-mod-font');
 @import url('http://fonts.cdnfonts.com/css/zacbel-x');
 @import url('http://fonts.cdnfonts.com/css/bastamanbold'); */
+
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Press+Start+2P&family=Space+Grotesk:wght@700&display=swap');
 
@@ -248,8 +249,12 @@ footer {
 	.counter-container {
 		width: 35vw;
 	}
+
+	.increment-btn {
+		margin: 0.1rem;
+	}
 	.title {
-		font-size: 30px;
+		font-size: 25px;
 	}
 	#save-log {
 		width: 70vw;
