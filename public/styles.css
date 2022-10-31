@@ -134,6 +134,7 @@ main {
 	padding: 1rem;
 	margin: auto;
 	border-radius: 12px;
+	margin-bottom: 4rem;
 }
 
 .score-list {
@@ -142,6 +143,37 @@ main {
 
 li {
 	list-style-type: none;
+}
+
+footer {
+	text-align: center;
+	height: 10vh;
+	margin-top: 10rem;
+}
+
+.footer-notes {
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+}
+
+.fa-brands {
+	color: black;
+	transition: .3s ease all;
+}
+
+.fa-brands:hover {
+	color: #d0d0d0;
+}
+
+.footer-text {
+	font-family: "Engender Mod", sans-serif;
+}
+
+.footer-text a {
+	text-decoration: none;
+	color: #19244d;
+	font-weight: bold;
 }
 
 .disabled {
@@ -176,6 +208,9 @@ li {
 	.counter-container {
 		width: 17vw;
 	}
+	#save-log {
+		width: 40vw;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -194,6 +229,9 @@ li {
 	.counter-container {
 		width: 20vw;
 	}
+	#save-log {
+		width: 60vw;
+	}
 }
 
 @media screen and (max-width: 425px) {
@@ -209,5 +247,8 @@ li {
 	}
 	.title {
 		font-size: 30px;
+	}
+	#save-log {
+		width: 70vw;
 	}
 }
